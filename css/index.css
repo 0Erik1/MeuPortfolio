@@ -3,20 +3,44 @@
     padding: 0%;
 }
 body{
-    background-color: rgb(77, 77, 77);
+    background-color: rgb(66, 66, 66);
+    color: rgb(230, 230, 230);
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 5fr 2fr 1fr;
 }
 
+/*navbar*/
 .nav{
     background-color: rgb(51, 51, 51);
+    box-shadow: 0px 1px 5px rgba(35, 35, 35, 2);
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-}.nav a{
+}
+.nav a{
     color: white;
     text-decoration: none;
     padding: 10px;
-}.nav a:hover{
+}
+.nav a:hover{
     color: rgb(185, 185, 185);
+}
+
+/*aprensentação*/
+
+.apresentacao{
+    display: grid ;
+}
+
+/*footer*/
+footer{
+    background-color: rgb(51, 51, 51) ;
+    box-shadow: 0px 1px 5px rgba(35, 35, 35, 2);
+
+    
 }

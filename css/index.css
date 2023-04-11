@@ -95,6 +95,7 @@ body{
 
 }.projeto h1{
     margin-top: 100px;
+    margin-left: 5%;
 }
 .cardgroup{
     display: flex;
@@ -138,14 +139,14 @@ body{
 
 }.sobre h1{
     margin-top: 100px;
+    margin-left: 5%;
 }
 .eu{
-    
     display: flex;
-    
     flex-direction: row;
     align-items: center;
     justify-content: center ;
+    flex-wrap: wrap;
 }
 /*footer*/
 footer{
@@ -154,6 +155,14 @@ footer{
     width: 100%;
     height: 80px;
     margin-top: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.footer a{
+    margin-left: 5px;
+    text-decoration: none;
+    color: #b83737;
 }
 
 /*srollbar*/

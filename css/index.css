@@ -113,8 +113,8 @@ body{
     justify-content: space-between;
     width: 300px;
     height: 400px;
-    border-radius: 10px;
-    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    
 }.card a{
     color: #ffffff;
     text-decoration: none;
@@ -128,25 +128,35 @@ body{
     width: 90%;
     height: 50px;
     margin-top: 10px;
+    margin-bottom: 10px;
 }.card a:hover{
     background-color: #282828;
     border-color: #ffe1e1;
     color: #b83737;
+}.card p{
+    margin: 10px;
+    
+}.card img{
+    border-radius: 10px 10px 0px 0px;
 }
 
 /*sobre*/
 .sobre{
-
+    
 }.sobre h1{
     margin-top: 100px;
     margin-left: 5%;
+    
 }
 .eu{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center ;
-    flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   background-color: #000000;
+   margin: 10px;
+   border-radius: 20px 0px 20px 0px;
+   
 }
 /*footer*/
 footer{

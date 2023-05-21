@@ -151,13 +151,20 @@ body{
 .eu{
     display: flex;
     flex-direction: row;
-   justify-content: center;
-   align-items: center;
-   background-color: #000000;
-   margin: 10px;
-   border-radius: 20px 0px 20px 0px;
+    justify-content: center;
+    align-items:center;
+    margin: 10px;
+    flex-wrap: wrap;
    
+}.eu p{
+        width:360px;
+        margin-left: 20px;
+        padding-bottom: 15px;
+}.eu img{
+    margin-bottom:20px;
+    border-radius: 10px;
 }
+
 /*footer*/
 footer{
     background-color: rgb(40, 40, 40) ;

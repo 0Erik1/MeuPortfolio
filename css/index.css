@@ -63,7 +63,6 @@ body{
     font-size: 30px;
 }.inicio img{
     z-index: 5;
-    
 }
 
 .botao{
@@ -76,20 +75,22 @@ body{
     border-radius: 10px;
     border-color: #b83737;
     text-decoration: none;
-    color: #ffffff;
+    color: #ffffff;#f8b538
     font-family: 'Roboto';
     display: flex;
     align-items: center;
     
 }.botao :hover{
     background-color: #282828;
-    border-color: #ffe1e1;
-    color: #b83737;
+    border-color: #fbb127;
 }
 .botao img{
-    margin-right: 5px;
+    margin: 0;
 }
 
+#avatar{
+    border-radius: 40%;
+}
 /*projetos*/
 .projeto{
 
@@ -131,8 +132,7 @@ body{
     margin-bottom: 10px;
 }.card a:hover{
     background-color: #282828;
-    border-color: #ffe1e1;
-    color: #b83737;
+    border-color: #fbb127;
 }.card p{
     margin: 10px;
     
